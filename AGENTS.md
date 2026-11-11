@@ -10,7 +10,7 @@
 1. **最终产物是单文件**：`dist/jiaqi_french.html`，双击即可离线打开；运行时不访问外部网络（语音识别除外，见 p2）。
 2. **源码分开维护**：`src/`（逻辑、样式）、`questions/*.json`（题库，按主题分文件）、`scripts/`（build、validate）。不要把题库写回 HTML 里手工维护。
 3. **提交前必须**：`npm run validate && npm run build && npm test` 全部通过。
-4. **语言**：界面说明、提示、解析用中文；题目内容、选项、音频文本用法语。
+4. **语言**：孩子英语比中文好。界面、提示、反馈、解析一律**中英双语**（文字放 `src/i18n.js`）；题目内容、选项、音频文本用法语。每道题必须带 `prompt_en/zh`、`choices_en/zh`、`tips_en/zh`、`explanation_en/zh`，供答题页的“题目翻译 / 选项翻译 / 帮助”三个按钮使用；帮助不得直接给出答案；会泄露答案的题设 `no_choice_translation: true`。详见 `docs/tasks/p1b.md`。
 5. **题目全部原创**，不得复制教材原文、插图或出版社音频。
 6. **法语必须规范**：重音、性数配合、`? ! : ;` 前的空格、省音（l'、j'）。
 7. **数字不写死**：每日题量 `DAILY=30`、题型配比、复习上限都放在 `src/config.js`。
