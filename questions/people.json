@@ -1,0 +1,379 @@
+[
+  {
+    "id": "LL2-U1-H025",
+    "type": "choice",
+    "prompt": "Qui a les cheveux bruns, porte des lunettes ET un pull vert ?",
+    "answer": "Nina",
+    "scene": "portraits",
+    "choices": [
+      "Nina",
+      "Hugo",
+      "Maya",
+      "Lucas"
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "同时匹配头发、眼镜和衣服。",
+    "explanation_zh": "Nina 的画像同时满足三个条件。"
+  },
+  {
+    "id": "LL2-U1-H026",
+    "type": "multi",
+    "prompt": "Choisis les DEUX descriptions exactes de Maya.",
+    "answer": [
+      "Elle a les cheveux blonds.",
+      "Elle ne porte pas de lunettes."
+    ],
+    "scene": "portraits",
+    "choices": [
+      "Elle a les cheveux blonds.",
+      "Elle porte un pull vert.",
+      "Elle ne porte pas de lunettes.",
+      "Elle a les cheveux noirs."
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "核对 Maya 的画像与文字。",
+    "explanation_zh": "Maya 金发且不戴眼镜。"
+  },
+  {
+    "id": "LL2-U1-H027",
+    "type": "fill",
+    "prompt": "Complète : « Hugo est sportif. Sa sœur est ______. »",
+    "answer": "sportive",
+    "scene": "profile-hugo",
+    "unit": 1,
+    "theme": "people",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "男生 sportif，女生用阴性。",
+    "explanation_zh": "sportif 阴性变 sportive。"
+  },
+  {
+    "id": "LL2-U1-H028",
+    "type": "match",
+    "prompt": "Associe la forme masculine à la forme féminine.",
+    "answer": {
+      "grand": "grande",
+      "heureux": "heureuse",
+      "sportif": "sportive"
+    },
+    "scene": "gender",
+    "pairs": [
+      [
+        "grand",
+        "grande"
+      ],
+      [
+        "heureux",
+        "heureuse"
+      ],
+      [
+        "sportif",
+        "sportive"
+      ]
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "注意形容词阴性变化规律。",
+    "explanation_zh": "阳性变阴性：grand → grande；heureux → heureuse；sportif → sportive。"
+  },
+  {
+    "id": "LL2-U1-H029",
+    "type": "choice",
+    "prompt": "« Je porte des lunettes, mais je n’ai pas les cheveux bruns. » Qui parle ?",
+    "answer": "Lucas",
+    "scene": "portraits",
+    "choices": [
+      "Nina",
+      "Maya",
+      "Hugo",
+      "Lucas"
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "reading",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "先筛选眼镜，再排除棕发。",
+    "explanation_zh": "Lucas 戴眼镜且黑发；Nina 戴眼镜但棕发。"
+  },
+  {
+    "id": "LL2-U1-H030",
+    "type": "num",
+    "prompt": "Nina a 11 ans. Hugo a 3 ans de plus. Maya a 2 ans de moins que Hugo. Quel âge a Maya ?",
+    "answer": 12,
+    "scene": "age-puzzle",
+    "unit": 1,
+    "theme": "people",
+    "skill": "logic",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "先求 Hugo，再求 Maya。",
+    "explanation_zh": "Hugo 14 岁；Maya 比 Hugo 小 2 岁，所以 12 岁。"
+  },
+  {
+    "id": "LL2-U1-H031",
+    "type": "multi",
+    "prompt": "Qui porte des lunettes ? Sélectionne TOUS les enfants concernés.",
+    "answer": [
+      "Nina",
+      "Lucas"
+    ],
+    "scene": "portraits",
+    "choices": [
+      "Nina",
+      "Maya",
+      "Hugo",
+      "Lucas"
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "这题可能不止一个答案。",
+    "explanation_zh": "Nina 和 Lucas 戴眼镜。"
+  },
+  {
+    "id": "LL2-U1-H032",
+    "type": "error",
+    "prompt": "Corrige « Elle est blond et gentille. »",
+    "answer": "Elle est blonde et gentille.",
+    "scene": "message-face",
+    "choices": [
+      "Elle est blond et gentille.",
+      "Elle est blonde et gentil.",
+      "Elle est blonde et gentille.",
+      "Elle est blondes et gentilles."
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "注意 blonde 的结尾 e。",
+    "explanation_zh": "elle 是阴性单数，blonde 和 gentille 均为阴性单数。"
+  },
+  {
+    "id": "LL2-U1-H033",
+    "type": "order",
+    "prompt": "Présente Nina avec une phrase correcte.",
+    "answer": [
+      "Nina",
+      "a",
+      "les",
+      "cheveux",
+      "bruns",
+      "et",
+      "porte",
+      "des",
+      "lunettes",
+      "."
+    ],
+    "scene": "profile-nina",
+    "words": [
+      "des",
+      "cheveux",
+      "Nina",
+      "et",
+      "a",
+      ".",
+      "les",
+      "porte",
+      "lunettes",
+      "bruns"
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "order",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "两个动词 a 和 porte 连接。",
+    "explanation_zh": "正确句子是 Nina a les cheveux bruns et porte des lunettes.，意思是妮娜有棕色头发并戴眼镜。"
+  },
+  {
+    "id": "LL2-U1-H034",
+    "type": "choice",
+    "prompt": "Lis le témoignage : « Je cherche une fille. Elle a les cheveux blonds, ne porte pas de lunettes et a un pull rouge. » De qui parle-t-on ?",
+    "answer": "Maya",
+    "scene": "portraits",
+    "choices": [
+      "Nina",
+      "Maya",
+      "Hugo",
+      "Lucas"
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "reading",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "至少核对三个特征。",
+    "explanation_zh": "金发、不戴眼镜、红色上衣 => Maya。（已改为阅读题；未采用合成音频。）"
+  },
+  {
+    "id": "LL2-U1-H035",
+    "type": "choice",
+    "prompt": "Hugo est plus grand que Maya. Maya est plus grande que Nina. Qui est le plus petit ?",
+    "answer": "Nina",
+    "scene": "height",
+    "choices": [
+      "Hugo",
+      "Maya",
+      "Nina",
+      "On ne sait pas"
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "logic",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "把身高关系排成一行。",
+    "explanation_zh": "Hugo ＞ Maya ＞ Nina，所以 Nina 最矮。"
+  },
+  {
+    "id": "LL2-U1-H036",
+    "type": "choice",
+    "prompt": "Maya aide Nina à porter les livres. Quel adjectif convient le mieux ?",
+    "answer": "serviable",
+    "scene": "kindness",
+    "choices": [
+      "méchante",
+      "serviable",
+      "paresseuse",
+      "triste"
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "从行为推断性格。",
+    "explanation_zh": "serviable = 乐于帮助人的。"
+  },
+  {
+    "id": "JQ-X011",
+    "type": "choice",
+    "prompt": "« Marie est plus grande que Léa, mais moins grande que Nina. » Qui est la plus grande ?",
+    "answer": "Nina",
+    "scene": "height",
+    "choices": [
+      "Marie",
+      "Léa",
+      "Nina",
+      "Impossible à savoir"
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "logic",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "玛丽比莱娅高，但比妮娜矮，所以妮娜最高。"
+  },
+  {
+    "id": "JQ-X012",
+    "type": "fill",
+    "prompt": "Complète : « Ces filles sont très ______. » (heureux)",
+    "answer": "heureuses",
+    "scene": "gender",
+    "unit": 1,
+    "theme": "people",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "heureux 的阴性复数是 heureuses。"
+  },
+  {
+    "id": "JQ-X013",
+    "type": "choice",
+    "prompt": "« Ils ont les cheveux courts et sont sportifs. » Quelle phrase est correcte ?",
+    "answer": "Ils sont sportifs.",
+    "scene": "gender",
+    "choices": [
+      "Ils sont sportif.",
+      "Ils est sportifs.",
+      "Ils sont sportifs.",
+      "Ils sommes sportifs."
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "ils + sont；sportifs 为阳性复数。"
+  },
+  {
+    "id": "JQ-X014",
+    "type": "multi",
+    "prompt": "Choisis DEUX descriptions grammaticalement correctes.",
+    "answer": [
+      "Elle est grande.",
+      "Ils ont les cheveux bruns."
+    ],
+    "scene": "portraits",
+    "choices": [
+      "Elle est grand.",
+      "Elle est grande.",
+      "Ils ont les cheveux bruns.",
+      "Ils a les cheveux brun."
+    ],
+    "unit": 1,
+    "theme": "people",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "复数名词和形容词要保持性数一致；注意 filles 用阴性复数、garçons 用阳性复数。"
+  },
+  {
+    "id": "JQ-X015",
+    "type": "num",
+    "prompt": "Trois enfants ont 9, 12 et 15 ans. Quelle est leur moyenne d’âge ?",
+    "answer": 12,
+    "scene": "age-puzzle",
+    "unit": 1,
+    "theme": "people",
+    "skill": "logic",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "把三人的年龄相加再除以三：(9 + 12 + 15) ÷ 3 = 12，平均十二岁。"
+  }
+]
