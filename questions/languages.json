@@ -1,0 +1,382 @@
+[
+  {
+    "id": "LL2-U1-H037",
+    "type": "choice",
+    "prompt": "Claire a la nationalité française. Quelle phrase est correcte ?",
+    "answer": "Elle est française.",
+    "scene": "passport-claire",
+    "choices": [
+      "Elle est français.",
+      "Elle est française.",
+      "Elle est France.",
+      "Elle est francais."
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "注意国籍词阴性。",
+    "explanation_zh": "描述法国女孩：Elle est française。"
+  },
+  {
+    "id": "LL2-U1-H038",
+    "type": "match",
+    "prompt": "Associe chaque pays à une langue parlée dans ce pays.",
+    "answer": {
+      "France": "français",
+      "Italie": "italien",
+      "Allemagne": "allemand"
+    },
+    "scene": "flag-strip",
+    "pairs": [
+      [
+        "France",
+        "français"
+      ],
+      [
+        "Italie",
+        "italien"
+      ],
+      [
+        "Allemagne",
+        "allemand"
+      ]
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "这是常见语言配对，并不代表一国只说一种语言。",
+    "explanation_zh": "法国—法语，意大利—意大利语，德国—德语。这些国家也可能使用其他语言。"
+  },
+  {
+    "id": "LL2-U1-H039",
+    "type": "multi",
+    "prompt": "Choisis les DEUX drapeaux qui ont des bandes verticales bleu-blanc-rouge ou vert-blanc-rouge.",
+    "answer": [
+      "France",
+      "Italie"
+    ],
+    "scene": "flags",
+    "choices": [
+      "France",
+      "Allemagne",
+      "Italie",
+      "Luxembourg"
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "看条纹方向以及颜色。",
+    "explanation_zh": "法国蓝白红竖条，意大利绿白红竖条；卢森堡为横条。"
+  },
+  {
+    "id": "LL2-U1-H040",
+    "type": "choice",
+    "prompt": "Selon les fiches, qui parle DEUX langues et habite à Paris ?",
+    "answer": "Claire",
+    "scene": "passport-table",
+    "choices": [
+      "Claire",
+      "Marco",
+      "Sofia",
+      "Tom"
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "reading",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "同时筛选语言数量和城市。",
+    "explanation_zh": "Claire 会法语和德语，住巴黎。"
+  },
+  {
+    "id": "LL2-U1-H041",
+    "type": "error",
+    "prompt": "Choisis la phrase correcte pour une fille italienne.",
+    "answer": "Je suis italienne.",
+    "scene": "passport-sofia",
+    "choices": [
+      "Je suis italien.",
+      "Je suis italienne.",
+      "Je es italienne.",
+      "Je suis Italie."
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "女孩的国籍词用阴性。",
+    "explanation_zh": "italien（阳性）→ italienne（阴性）。"
+  },
+  {
+    "id": "LL2-U1-H042",
+    "type": "num",
+    "prompt": "Une famille fait 28 km le matin puis 37 km l’après-midi. Combien de kilomètres en tout ?",
+    "answer": 65,
+    "scene": "route",
+    "unit": 1,
+    "theme": "languages",
+    "skill": "logic",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "将上午和下午路程相加。",
+    "explanation_zh": "把上午和下午的路程相加：28 + 37 = 65 km，共六十五千米。"
+  },
+  {
+    "id": "LL2-U1-H043",
+    "type": "order",
+    "prompt": "Construis une phrase avec deux langues.",
+    "scene": "message-language",
+    "words": [
+      "allemand",
+      "Je",
+      ".",
+      "français",
+      "parle",
+      "et"
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "order",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "主语 + 动词 + 两种语言。",
+    "explanation_zh": "Je parle français et allemand. 表示“我说法语和德语”。",
+    "answers": [
+      [
+        "Je",
+        "parle",
+        "français",
+        "et",
+        "allemand",
+        "."
+      ],
+      [
+        "Je",
+        "parle",
+        "allemand",
+        "et",
+        "français",
+        "."
+      ]
+    ]
+  },
+  {
+    "id": "LL2-U1-H044",
+    "type": "choice",
+    "prompt": "Lis : « Je m’appelle Inès. Je suis espagnole, j’habite à Madrid et je parle espagnol et français. » Quel est son pays ?",
+    "answer": "Espagne",
+    "scene": "passport-letter",
+    "choices": [
+      "France",
+      "Italie",
+      "Espagne",
+      "Allemagne"
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "reading",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "听辨 espagnoLE。",
+    "explanation_zh": "espagnole 指西班牙女孩。（已改为阅读题；未采用合成音频。）"
+  },
+  {
+    "id": "LL2-U1-H045",
+    "type": "choice",
+    "prompt": "D’après le tableau, qui parle italien ET français ?",
+    "answer": "Marco",
+    "scene": "passport-table",
+    "choices": [
+      "Claire",
+      "Marco",
+      "Sofia",
+      "Tom"
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "reading",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "注意必须同时会两种语言。",
+    "explanation_zh": "Marco 的语言栏是 italien, français。"
+  },
+  {
+    "id": "LL2-U1-H046",
+    "type": "choice",
+    "prompt": "Marie est française, mais elle habite à Rome. Où habite-t-elle ?",
+    "answer": "À Rome",
+    "scene": "passport-letter",
+    "choices": [
+      "En France",
+      "À Paris",
+      "À Rome",
+      "À Berlin"
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "reading",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "不要把国籍误认为居住地。",
+    "explanation_zh": "habiter 描述居住地，不等于国籍；Marie 住在罗马。"
+  },
+  {
+    "id": "LL2-U1-H047",
+    "type": "fill",
+    "prompt": "Complète : « Lucas est allemand. Il ______ allemand et français. »",
+    "answer": "parle",
+    "scene": "message-language",
+    "unit": 1,
+    "theme": "languages",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "动词 parler 的第三人称单数。",
+    "explanation_zh": "il（第三人称单数）+ parle。"
+  },
+  {
+    "id": "LL2-U1-H048",
+    "type": "multi",
+    "prompt": "Sur la fiche du Luxembourg, quelles sont les TROIS langues indiquées ?",
+    "answer": [
+      "luxembourgeois",
+      "français",
+      "allemand"
+    ],
+    "scene": "lux-card",
+    "choices": [
+      "luxembourgeois",
+      "français",
+      "italien",
+      "allemand"
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "按资料卡作答。",
+    "explanation_zh": "本题资料卡列出卢森堡语、法语和德语三种语言。"
+  },
+  {
+    "id": "JQ-X016",
+    "type": "choice",
+    "prompt": "« Je suis née en Italie, je vis à Lyon et je parle italien et français. » Où habite cette personne ?",
+    "answer": "À Lyon",
+    "scene": "passport-letter",
+    "choices": [
+      "En Italie",
+      "À Lyon",
+      "À Rome",
+      "À Berlin"
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "reading",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "vis à Lyon 指目前住在里昂。"
+  },
+  {
+    "id": "JQ-X017",
+    "type": "multi",
+    "prompt": "Parmi ces phrases, choisis les DEUX grammaticalement correctes.",
+    "answer": [
+      "Elle parle allemand.",
+      "Nous parlons français."
+    ],
+    "scene": "message-language",
+    "choices": [
+      "Elle parlent allemand.",
+      "Elle parle allemand.",
+      "Nous parle français.",
+      "Nous parlons français."
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "elle 后用 parle；nous 后用 parlons，主语和动词形式要一致。"
+  },
+  {
+    "id": "JQ-X018",
+    "type": "fill",
+    "prompt": "Complète : « Nous ______ trois langues à l’école. » (parler)",
+    "answer": "parlons",
+    "scene": "message-language",
+    "unit": 1,
+    "theme": "languages",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "主语 nous 的动词形式是 parlons，意思是“我们说三种语言”。"
+  },
+  {
+    "id": "JQ-X019",
+    "type": "num",
+    "prompt": "Un voyage dure 145 km. La famille fait 58 km puis 46 km. Combien de kilomètres restent-ils ?",
+    "answer": 41,
+    "scene": "route",
+    "unit": 1,
+    "theme": "languages",
+    "skill": "logic",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "总路程减去两段已走路程：145 − 58 − 46 = 41 km，还剩四十一千米。"
+  },
+  {
+    "id": "JQ-X020",
+    "type": "choice",
+    "prompt": "Le drapeau du Luxembourg comporte des bandes...",
+    "answer": "horizontales",
+    "scene": "flags",
+    "choices": [
+      "verticales",
+      "horizontales",
+      "diagonales",
+      "en forme de cercle"
+    ],
+    "unit": 1,
+    "theme": "languages",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "卢森堡国旗是红白浅蓝三条横带。"
+  }
+]

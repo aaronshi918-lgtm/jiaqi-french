@@ -1,0 +1,369 @@
+[
+  {
+    "id": "LL2-U1-H013",
+    "type": "choice",
+    "prompt": "Dans le plan, qu’est-ce qui est à DROITE du tableau ?",
+    "answer": "La fenêtre",
+    "scene": "roomplan",
+    "choices": [
+      "La porte",
+      "La fenêtre",
+      "Le sac",
+      "Le bureau"
+    ],
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "关注平面图的左右位置，不是颜色。",
+    "explanation_zh": "平面图里黑板右边是窗户。"
+  },
+  {
+    "id": "LL2-U1-H014",
+    "type": "multi",
+    "prompt": "Dans le sac bleu, quels DEUX objets se trouvent ensemble ?",
+    "answer": [
+      "Deux cahiers",
+      "Une règle"
+    ],
+    "scene": "bags",
+    "choices": [
+      "Deux cahiers",
+      "Un ballon",
+      "Une règle",
+      "Trois gommes"
+    ],
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "阅读图中的蓝色书包。",
+    "explanation_zh": "蓝色书包有两本笔记本和一把尺。"
+  },
+  {
+    "id": "LL2-U1-H015",
+    "type": "match",
+    "prompt": "Associe chaque objet à son utilisation.",
+    "answer": {
+      "Une règle": "mesurer",
+      "Une gomme": "effacer",
+      "Des ciseaux": "couper"
+    },
+    "scene": "tools",
+    "pairs": [
+      [
+        "Une règle",
+        "mesurer"
+      ],
+      [
+        "Une gomme",
+        "effacer"
+      ],
+      [
+        "Des ciseaux",
+        "couper"
+      ]
+    ],
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "左侧物品与右侧用途一一配对。",
+    "explanation_zh": "尺子 mesurer，橡皮 effacer，剪刀 couper。"
+  },
+  {
+    "id": "LL2-U1-H016",
+    "type": "num",
+    "prompt": "Il y a 9 feutres dans la boîte. On en donne 3 et on en ajoute 5. Combien en reste-t-il ?",
+    "answer": 11,
+    "scene": "pens",
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "logic",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "先减再加。",
+    "explanation_zh": "先送出三支，再加五支：9 − 3 + 5 = 11，共十一支。"
+  },
+  {
+    "id": "LL2-U1-H017",
+    "type": "choice",
+    "prompt": "On cherche un objet pour écrire : il est dans la trousse, pas dans le sac vert. Quel objet faut-il prendre ?",
+    "answer": "Le stylo",
+    "scene": "shelf",
+    "choices": [
+      "Le stylo",
+      "Le ballon",
+      "Le livre",
+      "La règle"
+    ],
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "需要写字而不是测量。",
+    "explanation_zh": "笔袋中可用于书写的是 stylo。"
+  },
+  {
+    "id": "LL2-U1-H018",
+    "type": "order",
+    "prompt": "Construis une phrase complète avec tous les mots.",
+    "answer": [
+      "Il",
+      "y",
+      "a",
+      "trois",
+      "cahiers",
+      "bleus",
+      "sur",
+      "la",
+      "table",
+      "."
+    ],
+    "scene": "three-books",
+    "words": [
+      "bleus",
+      "table",
+      "a",
+      "trois",
+      "sur",
+      "Il",
+      ".",
+      "cahiers",
+      "la",
+      "y"
+    ],
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "order",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "先组成 Il y a。",
+    "explanation_zh": "Il y a trois cahiers bleus sur la table. = 桌上有三本蓝色笔记本。"
+  },
+  {
+    "id": "LL2-U1-H019",
+    "type": "error",
+    "prompt": "Choisis la phrase bien écrite.",
+    "answer": "Il y a deux trousses rouges.",
+    "scene": "pouches",
+    "choices": [
+      "Il y a deux trousse rouge.",
+      "Il y a deux trousses rouges.",
+      "Il y a deux trousses rouge.",
+      "Il y a deux trousse rouges."
+    ],
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "名词和形容词都要复数。",
+    "explanation_zh": "deux trousses 为复数，形容词也用 rouges。"
+  },
+  {
+    "id": "LL2-U1-H020",
+    "type": "multi",
+    "prompt": "Observe le plan de classe. Quelles DEUX phrases sont vraies ?",
+    "answer": [
+      "La porte est à gauche.",
+      "Le tableau est en haut."
+    ],
+    "scene": "roomplan",
+    "choices": [
+      "La porte est à gauche.",
+      "La fenêtre est à gauche du tableau.",
+      "Le tableau est en haut.",
+      "Le sac est sous la fenêtre."
+    ],
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "reading",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "依照方位判断，不是图案颜色。",
+    "explanation_zh": "门在左侧，黑板位于上方。"
+  },
+  {
+    "id": "LL2-U1-H021",
+    "type": "choice",
+    "prompt": "Lis : « Où est le cahier ? Il n’est pas sur la table. Il est sous la table, à côté du sac. » Où se trouve le cahier ?",
+    "answer": "Sous la table",
+    "scene": "message-language",
+    "choices": [
+      "Sur la table",
+      "Sous la table",
+      "Dans le sac",
+      "Derrière la porte"
+    ],
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "reading",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "分辨 sur（上）与 sous（下）。",
+    "explanation_zh": "sous la table = 在桌子下面。（已改为阅读题；未采用合成音频。）"
+  },
+  {
+    "id": "LL2-U1-H022",
+    "type": "num",
+    "prompt": "Un rectangle a une longueur de 7 cm et une largeur de 4 cm. Quel est son périmètre en cm ?",
+    "answer": 22,
+    "scene": "rectangle",
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "logic",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "四条边相加。",
+    "explanation_zh": "长方形周长 = (7 + 4) × 2 = 22 cm。"
+  },
+  {
+    "id": "LL2-U1-H023",
+    "type": "fill",
+    "prompt": "Complète avec le pluriel correct : « Sur la table, il y a trois ______. » (cahier)",
+    "answer": "cahiers",
+    "scene": "three-books",
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "在 cahier 末尾增加字母。",
+    "explanation_zh": "trois 后面名词复数：cahiers。"
+  },
+  {
+    "id": "LL2-U1-H024",
+    "type": "code",
+    "prompt": "Code du coffre : crayons dans le sac bleu, livres dans le sac vert, gommes dans la trousse. Entre les 3 chiffres dans cet ordre.",
+    "answer": "243",
+    "scene": "bags",
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "logic",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "严格按题目指定顺序取三位数字。",
+    "explanation_zh": "按照蓝包铅笔数 2、绿包书本数 4、笔袋橡皮数 3，密码是 243。"
+  },
+  {
+    "id": "JQ-X006",
+    "type": "choice",
+    "prompt": "Il y a quatre cahiers sur la table. Léa en prend deux et Hugo en ajoute cinq. Combien de cahiers restent sur la table ?",
+    "answer": "7",
+    "scene": "three-books",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "9"
+    ],
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "logic",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "四本减两本，再加五本：4 − 2 + 5 = 7，桌上还剩七本。"
+  },
+  {
+    "id": "JQ-X007",
+    "type": "fill",
+    "prompt": "Complète : « Les deux règles sont ______. » (vert)",
+    "answer": "vertes",
+    "scene": "tools",
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "règles 为阴性复数，vert → vertes。"
+  },
+  {
+    "id": "JQ-X008",
+    "type": "choice",
+    "prompt": "Le dictionnaire est entre le livre et la trousse. Quel mot signifie « entre » ?",
+    "answer": "entre",
+    "scene": "shelf",
+    "choices": [
+      "dessous",
+      "entre",
+      "derrière",
+      "devant"
+    ],
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "vocab",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "entre 表示在两者之间。"
+  },
+  {
+    "id": "JQ-X009",
+    "type": "num",
+    "prompt": "Cinq tables ont chacune quatre chaises. Trois chaises sont cassées. Combien de chaises sont utilisables ?",
+    "answer": 17,
+    "scene": "roomplan",
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "logic",
+    "level": 2,
+    "audio_text": "",
+    "choices": [],
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "五张桌子各四把椅子，再减掉坏的三把：5 × 4 − 3 = 17。"
+  },
+  {
+    "id": "JQ-X010",
+    "type": "multi",
+    "prompt": "Choisis les DEUX groupes nominaux corrects.",
+    "answer": [
+      "trois stylos bleus",
+      "deux règles rouges"
+    ],
+    "scene": "pens",
+    "choices": [
+      "trois stylos bleu",
+      "trois stylos bleus",
+      "deux règle rouge",
+      "deux règles rouges"
+    ],
+    "unit": 1,
+    "theme": "classroom",
+    "skill": "grammar",
+    "level": 2,
+    "audio_text": "",
+    "aliases": [],
+    "hint_zh": "请仔细读题，再作答。",
+    "explanation_zh": "名词和形容词复数需配合。"
+  }
+]
